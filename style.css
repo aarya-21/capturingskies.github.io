@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "SF";
+    src: url("/fonts/SF-Pro-Text-Medium\ copy.otf");
+}
+
+body {
+    background-image: url("/images/IMG_3149.jpeg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+#header img{
+    width: 40%;
+    text-align: center;
+}
+
+#header{
+    margin-top: 10%;
+    text-align: center;
+    position: sticky;
+    transition: all 0.4s ease;
+}
+
+#folders{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#folders img{
+    width: 100%;
+}
+
+#book1{
+    float: left;
+    width: 230px;
+    margin-left: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+}
+
+#book2{
+    float: right;
+    width: 230px;
+    margin-right: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+}
+
+#book1 img{
+    text-align: right;
+}
+
+#book2 img{
+    text-align: left;
+}
+
+.book:hover{
+    opacity: 0.5;
+}
+
+.hidden{
+    display: none;
+}
+
+#ver1gif{
+    float: left;
+    width: 7%;
+    margin-left: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+}
+
+#ver1book{
+    float: right;
+    width: 10%;
+    margin-right: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+    text-align: center
+}
+
+#ver1gif img{
+    text-align: right;
+}
+
+#ver1book img{
+    text-align: left;
+}
+
+#ver1giff img{
+    width: 100%;
+}
+
+#ver1giff{
+    position: absolute;
+    z-index: -10;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#screen1 img{
+    width: 40%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#screen2 img{
+    width: 40%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#ver2gif{
+    float: left;
+    width: 7%;
+    margin-left: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+}
+
+#ver2book{
+    float: right;
+    width: 10%;
+    margin-right: 35%;
+    font-family: "SF";
+    font-size: 1.2em;
+    color: white;
+    text-align: center
+}
+
+#ver2gif img{
+    text-align: right;
+}
+
+#ver2book img{
+    text-align: left;
+}
+
+#ver2giff img{
+    width: 80%;
+    position: absolute;
+    z-index: -10;
+}
+
+#bouncingBook1 img{
+    width:40%;
+}
+
+#bouncingBook1{
+    z-index: 10;
+    position: absolute;
+    width: 15%;
+}
+
+#bouncingBook2{
+    z-index: 15;
+    position: absolute;
+    width: 15%;
+}
+
+#bouncingBook1 img{
+    width:40%;
+}   
+
+#screensaver{
+    font-family: "SF";
+    font-size: 2em;
+    margin: 12.5em;
+    margin-top: 1.4em;
+    color: beige;
+    position: absolute;
+    z-index: 12;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+
+#screensaver:hover{
+    opacity: 1;
+}
+
+#home{
+    text-align: right;
+    font-family: "SF";
+    font-size: 2em;
+    margin-top: 1.4em;
+    margin-left: 50em;
+    color: beige;
+    position: absolute;
+    z-index: 12;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+
+#home:hover{
+    opacity: 1;
+}
